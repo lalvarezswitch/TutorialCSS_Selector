@@ -1,0 +1,15 @@
+******Tutorial de CSS Selector en Chrome***
+1er caso
+https://www.spotify.com/my-en/signup/
+input#register-email --- me encuentra el elemento con tag input y que tiene el atributo id(#) con valor register-email
+input.thirdparty --- me encuentra el elemento con tag input y que tiene el atributo class(.) con valor thirdparty
+div.register-dob --- me encuentra el elemento con tag div y que tiene el atributo class(.) con valor register-dob
+
+input[type=email] --- me encuentra el elemento con tag input y que tiene el atributo type con valor email
+input[required=required] --- me encuentra los elementos con tag input y que tiene el atributo required con valor required
+select#register-dob-month[name='signup_form[dob_month]'] --- me encuentra el elemento con tag select y que tiene el atributo id(#) con valor register-dob-month y además tiene el atributo name con valor: signup_form[dob_month]
+input.dob[type='number'] --- me encuentra los elementos con tag input y que tiene el atributo class(.) con valor dob y además tiene el atributo type con valor: number
+
+input[name^='signup_form'] --- me encuentra los elementos con tag input y que tiene el atributo name con un prefijo(^) de valor: signup_form
+input[type$='ext'] --- me encuentra los elementos con tag input y que tiene el atributo type con un sufijo($) de valor: ext
+
